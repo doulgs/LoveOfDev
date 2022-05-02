@@ -682,3 +682,49 @@ footer span a:hover {
     line-height: 38px;
   }
 }
+
+
+
+
+
+.gpwzYL {
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    list-style: none;
+    margin: 2rem 0px;
+    padding: 0px;
+    width: 100%;
+}
+* {
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.QbPrJ {
+    width: 100%;
+    padding-bottom: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(30, 25, 44);
+}
+body {
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    position: relative;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
