@@ -11,7 +11,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* custom scroll bar */
+/* barra de rolagem personalizada */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -26,7 +26,6 @@ html {
   background: #555;
 }
 
-/* all similar content styling codes */
 section {
   padding: 100px 0;
 }
@@ -81,8 +80,10 @@ section .title::after {
   background: #fff;
   transform: translateX(-50%);
 }
-
-/* navbar styling */
+.icons i {
+  font-size: 27px;
+}
+/* estilo da barra de navegação */
 .navbar {
   position: fixed;
   width: 100%;
@@ -131,7 +132,7 @@ section .title::after {
   color: #fff;
 }
 
-/* menu btn styling */
+/* estilo de menu btn */
 .menu-btn {
   color: #fff;
   font-size: 23px;
@@ -166,7 +167,7 @@ section .title::after {
   filter: brightness(90%);
 }
 
-/* home section styling */
+/* estilo da seção de Inicio-Home */
 .home {
   display: flex;
   background: url("images/banner.jpg") no-repeat center;
@@ -202,14 +203,14 @@ section .title::after {
 }
 .home .home-content a {
   display: inline-block;
-  background: rgb(123, 79, 180);
+  /* background: rgb(123, 79, 180); */
   color: #fff;
   font-size: 25px;
-  padding: 12px 36px;
+  padding: 7px 12px;
   margin-top: 20px;
   font-weight: 400;
-  border-radius: 6px;
-  border: 2px solid rgb(123, 79, 180);
+  /* border-radius: 6px; */
+  /* border: 2px solid rgb(123, 79, 180); */
   transition: all 0.3s ease;
 }
 .home .home-content a:hover {
@@ -217,7 +218,7 @@ section .title::after {
   background: none;
 }
 
-/* about section styling */
+/* sobre o estilo da Sobre */
 .about .title::after {
   content: "quem eu sou";
 }
@@ -261,7 +262,7 @@ section .title::after {
   background: none;
 }
 
-/* services section styling */
+/* estilo da seção de Projetos */
 .services,
 .teams {
   color: #fff;
@@ -274,7 +275,7 @@ section .title::after {
 .services .title::after,
 .teams .title::after {
   background: #111;
-  content: "what i provide";
+  content: "Em progresso";
 }
 .services .serv-content .card {
   width: calc(33% - 20px);
@@ -308,7 +309,7 @@ section .title::after {
   margin: 10px 0 7px 0;
 }
 
-/* skills section styling */
+/* estilo da seção de habilidades */
 
 .skills .title::after {
   content: "o que eu sei";
@@ -383,7 +384,7 @@ section .title::after {
   width: 80%;
 }
 
-/* teams section styling */
+/* estilo de seção de Tecnologias */
 .teams .title::after {
   content: "Principais";
 }
@@ -446,7 +447,7 @@ section .title::after {
   background: rgb(123, 79, 180) !important;
 }
 
-/* contact section styling */
+/* estilo da seção de contato */
 .contact .title::after {
   content: "Contatar-me";
 }
@@ -541,7 +542,7 @@ section .title::after {
   color: rgb(123, 79, 180);
   background: none;
 }
-/* footer section styling */
+/* estilo da seção do rodapé */
 footer {
   background: #111;
   padding: 15px 23px;
@@ -556,7 +557,7 @@ footer span a:hover {
   text-decoration: underline;
 }
 
-/* responsive media query start */
+/* início mídia responsiva */
 @media (max-width: 1104px) {
   .about .about-content .left img {
     height: 350px;
