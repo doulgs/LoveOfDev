@@ -206,14 +206,22 @@ section .title::after {
 }
 .home .home-content a {
   display: inline-block;
+<<<<<<< HEAD
   /* background: #6C1C56; */
+=======
+  /* background: rgb(123, 79, 180); */
+>>>>>>> e36e83f5f3fb41c8690f5e0aa766e8e3261cc439
   color: #fff;
   font-size: 25px;
   padding: 7px 12px;
   margin-top: 20px;
   font-weight: 400;
   /* border-radius: 6px; */
+<<<<<<< HEAD
   /* border: 2px solid #6C1C56; */
+=======
+  /* border: 2px solid rgb(123, 79, 180); */
+>>>>>>> e36e83f5f3fb41c8690f5e0aa766e8e3261cc439
   transition: all 0.3s ease;
 }
 .home .home-content a:hover {
@@ -468,6 +476,7 @@ section .title::after {
 .skills-content .right .react-native::before {
   width: 80%;
 }
+<<<<<<< HEAD
 /* Slides */
 .slide {
   max-width: 800px;
@@ -475,6 +484,12 @@ section .title::after {
   margin: 40px auto;
   display: grid;
   box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.4);
+=======
+
+/* estilo de seção de Tecnologias */
+.teams .title::after {
+  content: "Principais";
+>>>>>>> e36e83f5f3fb41c8690f5e0aa766e8e3261cc439
 }
 .skills h2 {
   justify-content: center;
@@ -486,11 +501,17 @@ section .title::after {
   height: 100%;
 }
 
+<<<<<<< HEAD
 .slide-items {
   position: relative;
   grid-area: 1/1;
   border-radius: 5px;
   overflow: hidden;
+=======
+/* estilo da seção de contato */
+.contact .title::after {
+  content: "Contatar-me";
+>>>>>>> e36e83f5f3fb41c8690f5e0aa766e8e3261cc439
 }
 
 .slide-nav {
@@ -544,6 +565,7 @@ section .title::after {
   transform: translateX(-100%);
   animation: thumb 5s forwards linear;
 }
+<<<<<<< HEAD
 
 @keyframes thumb {
   to {
@@ -551,6 +573,8 @@ section .title::after {
   }
 }
 /* Fim Slides */
+=======
+>>>>>>> e36e83f5f3fb41c8690f5e0aa766e8e3261cc439
 /* estilo da seção do rodapé */
 footer {
   background: #111;
